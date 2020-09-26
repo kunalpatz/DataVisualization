@@ -47,7 +47,7 @@ app.layout = html.Div(children=[
     ),
     html.H6(
         children="Observation and Comments: Using Scatter Mapbox, We can observe geaographical distribution of Earthquake's origin."
-                 "All the earthquakes originated from east side in pacific ocean. The count is highest during year 2011-12",
+                 "All the earthquakes originated from east side in pacific ocean.",
         style={'color': 'black', 'fontSize': 12}),
     dcc.Graph(
         id='JE2',
